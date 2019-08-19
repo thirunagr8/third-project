@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="3" total="4" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="15190" started-at="2019-02-27T08:18:38Z" finished-at="2019-02-27T08:18:53Z">
+    <groups>
+      <group name="smoke">
+        <method signature="CreateLead_TestCase_001.createLead(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:groups.CreateLead_TestCase_001@136e911]" name="createLead" class="groups.CreateLead_TestCase_001"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Test" duration-ms="15190" started-at="2019-02-27T08:18:38Z" finished-at="2019-02-27T08:18:53Z">
+      <class name="groups.CreateLead_TestCase_001">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:groups.CreateLead_TestCase_001@136e911]" name="beforeSuite" is-config="true" duration-ms="382" started-at="2019-02-27T08:18:37Z" finished-at="2019-02-27T08:18:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:groups.MergeLeadTestCase_3UsingSEnWBMethods@a3426]" name="beforeSuite" is-config="true" duration-ms="0" started-at="2019-02-27T08:18:38Z" finished-at="2019-02-27T08:18:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="setData()[pri:0, instance:groups.CreateLead_TestCase_001@136e911]" name="setData" is-config="true" duration-ms="0" started-at="2019-02-27T08:18:38Z" finished-at="2019-02-27T08:18:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:groups.CreateLead_TestCase_001@136e911]" name="beforeClass" is-config="true" duration-ms="40" started-at="2019-02-27T08:18:38Z" finished-at="2019-02-27T08:18:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="login()[pri:0, instance:groups.CreateLead_TestCase_001@136e911]" name="login" is-config="true" duration-ms="7796" started-at="2019-02-27T08:18:40Z" finished-at="2019-02-27T08:18:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="FAIL" signature="createLead(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:groups.CreateLead_TestCase_001@136e911]" name="createLead" duration-ms="5152" started-at="2019-02-27T08:18:48Z" data-provider="fetchdata" finished-at="2019-02-27T08:18:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cts]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[lathika]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[b]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException
+at wdMethods.SeMethods.locateElement(SeMethods.java:95)
+at groups.CreateLead_TestCase_001.createLead(CreateLead_TestCase_001.java:27)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLead -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:groups.CreateLead_TestCase_001@136e911]" name="afterSuite" is-config="true" duration-ms="610" started-at="2019-02-27T08:18:53Z" finished-at="2019-02-27T08:18:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:groups.MergeLeadTestCase_3UsingSEnWBMethods@a3426]" name="afterSuite" is-config="true" duration-ms="81" started-at="2019-02-27T08:18:53Z" finished-at="2019-02-27T08:18:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- groups.CreateLead_TestCase_001 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
